@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Str-Web-Pltr</title>
+  <link rel="stylesheet" href="css/main.less" type="text/less" />
+  <style>
+
+  </style>
+</head>
+<body>
+  <div class="content">
+    <header>
+      <button onclick="check('curl');" id="curl" class="on" value="curl" >curl</button>
+      <button onclick="check('straight');" id="straight" class="on" value="curl" >straight</button>
+    </header>
+    <div class="page">
+      <div class="toStrk title" data-font="futural-mono" >
+        <span class="seb" data-font="seb" >There was nothing so very remarkable in that; nor did Alice think it so very much out of the way to hear the Rabbit say to itself, ‘Oh dear! Oh dear! I shall be late!’ (when she thought it over afterwards, it occurred to her that she ought to have wondered at this, but at the time it all seemed quite natural); but when the Rabbit actually took a watch out of its waistcoat-pocket, and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it, and burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge.
+      </div>
+
+    </div>
+  </div>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/less.min.js"></script>
+<script src="js/functions.js"></script>
+<script>
+$(document).ready(function(){
+  toStrk('.seb')
+  check()
+  setTimeout(function(){
+    // $('.page').find('.cadratin').find('path.curl, g.curl path').remove();
+    // $('.page').find('.cadratin').find('path.straight, g.straight path').remove();
+  }, 800)
+})
+
+
+</script>
+
+</html>
